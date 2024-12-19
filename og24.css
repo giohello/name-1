@@ -1,0 +1,16 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.card_section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: calc(100vh - 56px);
+    width: 100%;
+}
+.scroll_og {
+    overflow-y: auto;
+    height: 200px;
+}
